@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <title>Pixel Perfect</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--NAVBAR-->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/images/Logo.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger" onclick="changeIcon()">
+            <div id="hamburger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+          <div class="menu">
+            <li><a href="/">Sección 1</a></li>
+            <li><a href="/">Sección 2</a></li>
+            <li><a href="/">Sección 3</a></li>
+            <li><a href="/">Sección 4</a></li>
+            <li><a href="/">Sección 5</a></li>
+          </div>
+        </ul>
+        <img
+          class="nav-background"
+          src="/assets/images/nav-bg.png"
+          alt="nav background"
+        />
+      </nav>
+    </div>
+    <!--HEADER-->
+    <div class="bg-gray">
+      <div class="container">
+        <section class="header">
+          <div class="w-50">
+            <span class="label">ETIQUETA</span>
+            <h1>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h1>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <a href="#" class="text-light">consectetur adipiscing</a> elit.
+              <a href="#" class="text-light">Mollis adipiscing</a> in turpis
+              luctus ipsum, amet. Risus ac mauris pellentesque sed nunc nulla
+              accumsan nec. Risus gravida donec tempor feugiat.
+            </p>
+            <button class="btn">
+              Botón <img src="/assets/images/arrow-right.svg" alt="" />
+            </button>
+          </div>
+          <div class="w-50">
+            <img
+              class="header-bg"
+              src="/assets/images/header-bg.png"
+              alt="header background"
+            />
+          </div>
+        </section>
+      </div>
+      <img
+        class="points-bg"
+        src="/assets/images/points-bg.png"
+        alt="points background"
+      />
+    </div>
+    <!--FIRST SECTION-->
+    <div class="container">
+      <section class="first-section">
+        <div class="right">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          <button class="tab active" onclick="imgChange('first', this)">
+            Lorem ipsum
+          </button>
+          <div id="first" class="left-section">
+            <div class="left">
+              <img
+                src="/assets/images/section-bg-1.jpg"
+                alt="section first image"
+              />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                amet tortor diam habitasse tristique morbi tempus. Auctor semper
+                diam dignissim turpis nisl ultricies tellus mi. Metus.
+              </p>
+            </div>
+          </div>
+          <button class="tab" onclick="imgChange('second', this)">
+            Lorem ipsum
+          </button>
+          <div id="second" class="left-section d-none">
+            <div class="left">
+              <img
+                src="/assets/images/section-bg-2.jpg"
+                alt="section second image"
+              />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                amet tortor diam habitasse tristique morbi tempus. Auctor semper
+                diam dignissim turpis nisl ultricies tellus mi. Metus.
+              </p>
+            </div>
+          </div>
+          <button class="tab">Lorem ipsum</button>
+          <button class="tab">Lorem ipsum</button>
+        </div>
+      </section>
+    </div>
+    <!--FOOTER-->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <img src="assets/images/Logo.png" alt="Logo" />
+          <div class="footer-links">
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <p class="title">Title</p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p class="title mt">Title</p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+            <div class="col">
+              <p><b>Lorem ipsum</b></p>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+              <a href="#">Ejemplo</a>
+            </div>
+          </div>
+        </div>
+        <div class="social-media">
+            <p>© 2022</p>
+            <div class="media-icons">
+                <img src="/assets/images/facebook.png" alt="facebook">
+                <img src="/assets/images/twitter.png" alt="twitter">
+                <img src="/assets/images/linkedin.png" alt="linkedin">
+                <img src="/assets/images/instagram.png" alt="instagram">
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="/assets/js/scripts.js"></script>
+</html>
